@@ -1,0 +1,27 @@
+---
+
+formatter: markdown table
+header-from: docs/header.md
+footer-from: docs/footer.md
+
+output:
+  file: README.md
+
+sections: 
+  hide-all: true
+  show:
+    - header
+    - inputs
+    - outputs
+    - providers
+    - requirements
+    - footer
+
+sort:
+  enabled: true
+  by: required
+
+settings: 
+  color: true
+  indent: 2
+  required: true
