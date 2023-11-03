@@ -21,7 +21,7 @@ This terraform module is designed to create Auth0 Clients (Applications)
 
 ### Creating Applications on Auth0
 
-Let's take the following usage code snipet as an example for the creation of a Public DNS Zone
+Let's take the following usage code snipet as an example for the creation of an Application
 
 ```hcl
 
